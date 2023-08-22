@@ -13,17 +13,26 @@ function App() {
     setCounter(counter)
   }
 
+  const removeValue = () => {
+    // console.log("Removed clicked", Math.random());
+    counter = counter -1;
+    
+    setCounter(counter);
+  }
+
   return (
     <>
       <h1>Sita Ram</h1>
-      <h3>Chai aur React</h3>
+      <h3>Chai aur React : {counter}</h3>
       <h3>Counter value : {counter}</h3>
       <button
        onClick={addValue}>
         Add value
       </button>
       <br />
-      <button>Remove Value</button>
+      <button onClick={removeValue}>
+        Remove Value
+      </button>
     </>
   )
 }
