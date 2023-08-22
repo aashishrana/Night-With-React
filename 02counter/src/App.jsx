@@ -1,12 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  let counter = 15;
+  let [counter  , setCounter] = useState(15)
+  // let counter = 15;
   const addValue  = () => {
-    console.log("value added" , Math.random());
+
+    console.log("clicked", Math.random());
+    counter = counter + 1;
+    
+    setCounter(counter)
   }
 
   return (

@@ -3,3 +3,5 @@ virtual dom compare with real dom and only make changes in real dom only those e
 component name always start with capital letter
 
 lecture 4 -- I am confused in lecture 4 custom react
+
+lectur 5 -- updation of ui controlled by react hooks 
