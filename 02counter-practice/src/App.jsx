@@ -22,6 +22,7 @@ function App() {
       <button onClick={getIncrease}>increase</button>
       <br />
       <button onClick={getDecrease}>decrease</button>
+      
     </>
   );
 }
