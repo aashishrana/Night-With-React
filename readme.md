@@ -4,4 +4,4 @@ component name always start with capital letter
 
 lecture 4 -- I am confused in lecture 4 custom react
 
-lectur 5 -- updation of ui controlled by react hooks 
+lectur 5 -- updation of ui controlled by react hooks  in hooks we can update the data and change the data.
