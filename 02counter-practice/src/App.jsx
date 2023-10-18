@@ -5,13 +5,26 @@ import "./App.css";
 function App() {
   // let count  = 10;
 
-  let [count, setCount] = useState(10);
+  let [count, setCount] = useState(10); // Default values
+     //variable setVariable  
   let getIncrease = () => {
-    setCount(count + 1);
+    if(count < 20) {
+      setCount(count + 1);
+
+    }
+    
   };
 
   let getDecrease = () => {
-    setCount(count - 1);
+    if(count > 0) {
+      setCount(count - 1);
+
+    }
+    
+    
+    // if(setCount < 0) {
+    //   return
+    // }
   }
 
   return (
