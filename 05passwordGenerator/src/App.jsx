@@ -16,10 +16,10 @@ function App() {
       str = str + "0123456789"
     }
     if(charAllowed) {
-      str = str + "!@#$%[]{}"
+      str = str + "!@#$%_-[]{}"
     }
 
-    for(let i = 1; i <= Array.length; i++) {
+    for(let i = 1; i <= array.length; i++) {
       let char = Math.floor(Math.random() * str.length + 1)
       pass = str.charAt(char)
     }
