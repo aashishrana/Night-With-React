@@ -28,6 +28,8 @@ export default function Home() {
                             </svg>
                             &nbsp; Download now
                         </Link>
+
+                        
                     </div>
                 </div>
 
