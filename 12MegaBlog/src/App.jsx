@@ -15,4 +15,4 @@ function App() {
 export default App
 
 
-// Main file
+// Main file of rendering all components
