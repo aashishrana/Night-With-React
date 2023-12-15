@@ -5,6 +5,9 @@ import { Button, Container } from "../components";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
 
+
+// Post
+
 export default function Post() {
     const [post, setPost] = useState(null);
     const { slug } = useParams();
