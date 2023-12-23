@@ -14,3 +14,5 @@ function AddPost() {
 }
 
 export default AddPost
+
+// add post component
