@@ -5,13 +5,15 @@ import { Login as loginComponent } from "../components";
 function Login() {
     return(
         <div className="py-8">
-            <loginComponent/>  
+            <loginComponent/>   
         </div> 
     )
 }
 
-export default Login
+export default Login 
 
 // login component file
 
 // component name error
+
+//
