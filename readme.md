@@ -9,7 +9,9 @@ lectur 5 -- updation of ui controlled by react hooks  in hooks we can update the
 ### with the help of hooks we can use class component ffeatures in functional component such as state , life cycle , pure componnet etc 
 
 ### Again we are revising react in Development
+ 
 
+ // fa
 
 ### You can make custom tag in React with the help of JSX
 
